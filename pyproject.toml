@@ -1,0 +1,15 @@
+[project]
+name = "comfyui_gemini2"
+description = "NODES:CXH_Gemini2_TX, CXH_Gemini2_Vision, CXH_Local_Prompt"
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["google-generativeai", "requests"]
+
+[project.urls]
+Repository = "https://github.com/StartHua/Comfyui_Gemini2"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "Comfyui_Gemini2"
+Icon = ""
